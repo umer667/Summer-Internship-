@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.devinfo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid white;
+  padding: 0 83px;
+}
+.devpic {
+  display: flex;
+  align-items: right;
+  width: 20%;
+  padding: 10px;
+}
+.devpic img {
+  border-radius: 25%;
+  height: auto;
+}
+.pinfo {
+  display: flex;
+  width: 75%;
+  padding: 10px;
+}
+.pinfo ul li {
+  list-style-type: none;
+}
+body {
+  background-color: azure;
+}
+.intro {
+  margin: 10px 88px;
+}
+.intro h1 {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 12px;
+}
+.intro h2 {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 12px;
+}
+.intro p {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 12px;
+}
+.skillcontainer {
+  padding: 20px;
+}
+.skillcontainer ol li {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 12px;
+  align-items: center;
+  font-weight: 400;
+}
+.projects ul li {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 12px;
+  align-items: center;
+  list-style-type: none;
+  font-weight: 400;
+}
+.hobby ul li {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 12px;
+  align-items: center;
+  list-style-type: none;
+  font-weight: 500;
+}
+.Qualification p {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 12px;
+  list-style-type: none;
+  font-weight: 500;
+}
+.Qualification h3 {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 12px;
+  align-items: center;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1200px) {
+  .devinfo,
+  .devpic,
+  .pinfo,
+  .intro,
+  .skillcontainer,
+  .projects,
+  .hobby,
+  .Qualification {
+    margin: 50px 8px;
+  }
+}
